@@ -19,9 +19,9 @@ import org.car2x.veins.subprojects.veins_inet.VeinsInetManager;
 network Highway
 {
     parameters:
-        double playgroundSizeX @unit(m); // x size of the area the nodes are in (in meters)
-        double playgroundSizeY @unit(m); // y size of the area the nodes are in (in meters)
-        double playgroundSizeZ @unit(m); // z size of the area the nodes are in (in meters)
+        double playgroundSizeX 20(m); // x size of the area the nodes are in (in meters)
+        double playgroundSizeY 30(m); // y size of the area the nodes are in (in meters)
+        double playgroundSizeZ 5(m); // z size of the area the nodes are in (in meters)
         @display("bgb=732,483");
 
     submodules:
